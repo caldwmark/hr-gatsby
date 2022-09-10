@@ -10,7 +10,6 @@ const IndexPage = () => (
     <div className={styles.textCenter}>
       <h1>Hillbilly Radio</h1>
     </div>
-
     <div>
       <p>
         The music feed shuts down. Nobody is listening lately, not even me. I
