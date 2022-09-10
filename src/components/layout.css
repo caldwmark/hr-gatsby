@@ -122,13 +122,14 @@ ol,
 dl,
 dd,
 p {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   margin-bottom: var(--space-4);
 }
 ul,
 ol {
-  margin-left: var(--space-4);
+  max-width: 500px;
+  /* margin-left: var(--space-6); */
   list-style-position: outside;
   list-style-image: none;
 }
@@ -174,7 +175,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 li > p {
-  margin-bottom: calc(var(--space-4) / 2);
+  margin-bottom: calc(var(--space-3) / 2);
 }
 p {
   max-width: 680px;
@@ -221,4 +222,8 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: none;
+}
+
+footer {
+  margin-top: 4rem;
 }
