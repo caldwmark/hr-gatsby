@@ -31,9 +31,14 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
+            display: "flex",
+            justifyContent: "space-between",
           }}
         >
           © {new Date().getFullYear()} &middot; Hillbilly Radio
+          <a href="https://www.gatsbyjs.com/">Gatsby</a>
+          <a href="https://reactjs.org/">React</a>
+          <a href="https://github.com/caldwmark/hr-gatsby">GitHub</a>
         </footer>
       </div>
     </>
